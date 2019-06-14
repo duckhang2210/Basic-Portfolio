@@ -1,3 +1,9 @@
+h1, h2, h3 {
+    font-family: 'Georgia', Times, 'Times New Roman', serif;
+}
+body{
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
 p {
     color: #777777;
 }
@@ -30,20 +36,38 @@ p {
     
 }
 td {
-    background-color: #4aaaa5;
     color: white;
     width: 200px;
     height: 200px;
+    padding: 0;
 }
 td h2{
     text-align: center;
+    background-color: #4aaaa5;
+    margin-top: 60%;
 }
 #app1{
-    background-image: url("../images/portpic1.gif");
+    background-image: url("../images/towing-1.jpg");
+}
+#app2{
+    background-image: url("../images/portpic2.gif");
+}
+#app3{
+    background-image: url("../images/phone.jpg");
+}
+#app4{
+    background-image: url("../images/arch.jpg");
+}
+a {
+    text-decoration-line: none;
+    color: white;
+}
+a:hover {
+    color: deeppink;
 }
 table {
-    border-collapse: separate;
-    border-spacing: 20px 20px;
+    margin: 0;
+    border-spacing: 50px 50px;
 }
 body{
     margin: 0 0 70px 0;
@@ -61,11 +85,12 @@ nav ul li a:hover{
     color: #4aaaa5;
 }
 nav {
-    padding: 20px 0;
+    padding: 30px 0;
     float: right;
     background-color: white;
     margin-right: 23.9%;
-    height: 40px;
+    height: 100%;
+    
 }
 header {
     border-bottom: 1px solid lightgray;
