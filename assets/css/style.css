@@ -58,12 +58,15 @@ td h2{
 #app4{
     background-image: url("../images/arch.jpg");
 }
+#app5{
+    background-image: url("../images/portpic1.gif");
+}
 a {
     text-decoration-line: none;
     color: white;
 }
 a:hover {
-    color: deeppink;
+    color: #770087;
 }
 table {
     margin: 0;
@@ -75,10 +78,15 @@ body{
 }
 nav ul li {
     display: inline;
-    padding-left: 20px;
+    padding: 0 10px;
+    border-right: thin solid lightgray;
+
+}
+#noBDLi {
+    border-right: none;
 }
 nav ul li a:link, nav ul li a:visited {
-    text-decoration-line: none;
+    text-decoration-line: none ;
     color: darkgray;
 }
 nav ul li a:hover{
