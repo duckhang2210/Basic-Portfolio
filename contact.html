@@ -1,15 +1,9 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
     <head>
         <meta charset="utf-8">
-        <title>Duc Nguyen's Portfolio</title>
+        <title>Contact</title>
         <link type="text/css" rel="stylesheet" href="assets/css/style.css">
-        <style>
-            .bigP{
-                border: thin solid lightgray;
-                padding: 10px 10px;
-            }
-        </style>
     </head>
     <body>
         <header>
@@ -18,27 +12,39 @@
             <ul>
                 <li><a href="index.html">About Me</a></li>
                 <li><a href="portfolio.html">Portfolio</a></li>
-                <li id="noBDLi"><a href="contact.html">Contacts</a></li>
+                <li id="noBDLi"><a href="contact.html">Contact</a></li>
             </ul>
          </nav>
-         <div class="logo"></div>
         <div id="logo">
-            <h1 class="bigH1">Duc Khang Nguyen</h1>
+            <a href="index.html"><h1>Duc Khang Nguyen</h1></a>
         </div>
         </div>
         </header>
 
         <section id="main">
-            <h1 class="bigH1">Contacts</h1>
-            <p class="bigPContact">Name</p>
-            <p class="bigP">Duc Khang Nguyen</p>
-            <p class="bigPContact">Email</p>
-            <p class="bigP">duckhang2210@gmail.com</p>
-            <p class="bigPContact">Message<br>
-                <textarea name="comment" rows="10" cols="100"></textarea>
-                <input class="bigP" type="submit" value="Submit">
-            </p>
-             </section>
+            <h1>Contact</h1>
+
+            <form>
+                <ul>
+                    <li>
+                        <label for="name"><p>Name</p></label>
+                        <input type="text" name="name" id="name" placeholder="Please type your name here"
+                        required="required">
+                    </li>
+                    <li>
+                        <label for="email"><p>Email</p></label>
+                        <input type="text" name="email" id="email" placeholder="Example: example@gmail.com"
+                        required="required">
+                    </li>
+                    <li>
+                        <label for="message"><p>Message</p></label>
+                        <textarea id="message" name="messeage"
+                        required="required"></textarea>
+                    </li>
+                </ul>
+                <input type="submit" name="submit">
+            </form>
+        </section>
 
         <footer>
             <p>Copyright &copy;</p>
